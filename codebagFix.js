@@ -20,7 +20,7 @@ const addForm     = document.getElementById("add-form");
 const playersList = document.getElementById("players-list");
 const countSpan   = document.getElementById("count");
 
-addForm.addEventListener("submit", (e) => {
+addForm.addEventListener("click", (e) => {
   e.preventDefault();
   const name = nameInput.value;  
 
